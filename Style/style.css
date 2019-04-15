@@ -1,0 +1,83 @@
+body{
+	
+	font-family:'comic sans ms',sans serif;
+	background-size :cover;
+	background:  url(../Image/bk.jpg) center fixed;
+}
+#container{
+border: 3px solid grey;
+ font-size: 22px;
+ margin: 138px auto;
+ width:300px ;
+ height: 430px;
+
+}
+h1{
+	text-align: center;
+	color:#333;
+	text-shadow: 0 1px 1px rgba(0,0,0,4);
+	margin-bottom:  32px;
+}
+#Calculatrice #nbr {
+	border-radius: 6px;
+
+}
+.buttons{
+	border-radius: 6px;
+
+}
+#Calculatrice{
+	margin: 0px auto;
+	background-color: #454545;
+	border:1px #3D3D3D;
+	width: 180px;
+	box-shadow: 0 6px 10px rgba(0,0,0,4);
+}
+#header{
+	padding: 10px;
+
+
+}
+input#nbr{
+	text-align: right;
+	background-color: #121212;
+	border: none;
+	color: #C8C8C8;
+    font-size: 12px;
+    padding: 16px;
+    width: 120px;
+
+	}
+#body{
+	padding: 0 10px;
+	border-top: 1px solid #79D114;
+    border-radius: 6px 6px 6px 0;
+    border-bottom: 1px solid #79D114;
+    width: 160px;
+     height: 240px;
+
+}
+.buttons{
+	cursor: default;
+	text-align: center;
+	font-size: 22px;
+	text-shadow: 0 -1px 1px  #000;
+	color: #fff;
+	font-weight: bold;
+	display: inline-block;
+	border-top: 1px #777;
+	width: 30px;
+	background: linear-gradient(#5F5F5F 0%,#404040 100%); 
+	box-shadow: 0 2px 6px rgba(0,0,0,.8);
+	margin-bottom: 22px;
+
+}
+.buttons:hover{
+	background: linear-gradient(#79D114 0%,#50A61F 100%); 
+	border-top: 2px #9ADD73;
+    text-shadow: 0 -1px 1px #008000;
+
+}
+.buttons:active{
+	box-shadow: none;
+}
